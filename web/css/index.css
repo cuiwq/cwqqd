@@ -1,0 +1,204 @@
+/*
+* @Author: dhl
+* @Date:   2017-10-24 14:39:36
+* @Last Modified by:   dhl
+* @Last Modified time: 2017-10-24 15:54:10
+*/
+body,p,ol,ul,dl,li,dt,dt,h1,h2,h3,h4,h5,h6 {
+	 margin:0;
+	 padding:0;
+	 font-size: 20px;
+	 font-family: "微软雅黑";
+	 list-style: none;
+	 color: #000;
+}
+
+a {
+	 text-decoration: none;;
+	 color: #000;
+}
+
+
+
+/* 导航部分 */
+.nav {
+	height: 150px;
+	background: url("../img/nav_bg.png");
+	position: absolute;
+	width: 100%;
+}
+
+.nav .w {
+	 width: 1080px;
+	 margin: 0 auto;
+}
+.nav .left_nav {
+	 float: left;
+}
+
+.nav .left_nav .logo{
+	 display: block;
+	 width: 93px;
+	 height: 44px;
+	 background: url(../img/nav_brand.png) no-repeat;
+	 text-indent: -2000em;
+	 float: left;
+	 margin-top: 30px;
+	 /* font-size: 0; */
+	 /* color: transparent; */
+}
+
+.nav .left_nav ul,
+.nav .left_nav li {
+	 float: left;
+}
+.nav .left_nav li {
+	 height: 80px;
+	 line-height: 80px;
+}
+.nav .left_nav a {
+	 display: block;
+	 height: 100%;
+	 padding: 0 20px;
+	 text-shadow: 0 0 5px #000;
+}
+
+.nav .left_nav li a:hover {
+	background-color: blue;
+	color: #fff;
+}
+
+
+/* 右侧导航部分 */
+.nav .right_nav  {
+	 float: right;
+}
+
+.nav .right_nav .regist {
+	 width: 96px;
+	 height: 36px;
+	 display: block;
+	 background-color: #12b7f5;
+	 text-align: center;
+	 line-height: 36px;
+	 border-radius: 18px;
+	 margin-top: 30px;
+	 margin-right: 50px;
+	 float: left;
+}
+
+.nav .right_nav .other,
+ .nav .right_nav .other li{
+	 float: left;
+}
+ .nav .right_nav .other li {
+ 	 margin-left: 20px;
+ 	 padding-top: 25px;
+ }
+  .nav .right_nav .other p {
+  	 text-align: right;
+  }
+
+
+/* 办公区域 */
+.work {
+	width: 100%;
+	height: 965px;
+	background: url("../img/banner-bg.jpg") no-repeat top;
+	padding-top: 150px;
+	box-sizing: border-box;
+}
+.work img {
+	 display: block;
+	 margin: 10px auto;
+}
+.work img:last-child {
+	 width: 100%;
+}
+
+
+/* 沟通 */
+.Communicate {
+
+}
+.Communicate .title {
+	width: 100%;
+	height: 321px;
+	background: url("../img/sound-text.png") no-repeat;
+}
+.Communicate .bg {
+	 width: 100%;
+	 height: 600px;
+	 background: url("../img/sound-bg.jpg") no-repeat top;
+	 background-size: cover;
+	  background-attachment: fixed;
+}
+
+.Communicate .content .main {
+	 width: 980px;
+	 margin:0 auto;
+	 height: 500px;
+	 position: relative;
+}
+
+.Communicate .content .phone {
+	 width: 664px;
+	 height: 700px;
+	 background: url("../img/sound-phone.png") no-repeat;
+	 position: absolute;
+	 top: -200px;
+}
+
+.Communicate .content .text {
+	 float: right;
+	 text-align: right;
+}
+
+.Communicate .content .text h1 {
+	 font-size: 40px;
+}
+
+.Communicate .content .text p {
+	 font-size: 16px;
+	 margin-top: 30px;
+	 text-shadow: 0 0 3px #000;
+	 /* font-weight: 700; */
+}
+
+
+/* 文件 */
+.file {
+
+}
+
+.file .bg {
+	 width: 100%;
+	 height: 700px;
+	 background: url("../img/file-bg.jpg") no-repeat top;
+	 background-size: cover;
+	 background-attachment: fixed;
+}
+
+.file .content {
+	 width: 980px;
+	 height: 500px;
+	 margin: 0 auto;
+	 position: relative;
+}
+
+.file .content .text {
+	 float: left;
+	 margin-top: 150px;
+}
+.file .content .text h1 {
+	 font-size: 40px;
+}
+
+.file .content .computer  {
+	 width: 597px;
+	 height: 330px;
+	 background: url("../img/file-mac.png") no-repeat;
+	 position: absolute;
+	 right: -100px;
+	 top: 100px;
+}
