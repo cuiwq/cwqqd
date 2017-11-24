@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+.player {
+	width: 672px;
+	height: 378px;
+	margin: 50px auto;
+	background: #000 url(../img/loading.gif) center;
+	position: relative;
+}
+/*控制栏*/
+.controls {
+	width: 100%;
+	background-color: #ffa500;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2147483649;
+}
+
+/*进度外条*/
+.player .line {
+	margin-left: 30px;
+	margin-right: 200px;
+	background-color: #ccc;
+	height: 30px;
+
+}
+/*进度内条*/
+.press {
+	height: 30px;
+	width: 0px;
+	background-color: #666;
+}
+/*播放/暂停按钮*/
+.controls .play {
+	height: 30px;
+	width: 30px;
+	background-color: #ffa500;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	line-height: 30px;
+}
+.controls .play .play_a {
+	color:#fff;
+}
+/*计时，全屏部分*/
+.controls .other {
+	width: 200px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #ffa500;
+}
+/*时间计时*/
+.controls .other .time {
+	float: left;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.controls .other .time span {
+	float: left;
+}
+/*全屏箭头*/
+.controls .other .full {
+	float: left;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.controls .other .full a {
+	color:#fff;
+}
